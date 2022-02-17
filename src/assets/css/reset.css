@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol','Noto Color Emoji';
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+input,
+button,
+option,
+select,
+textarea {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+/* 去除数字输入框的样式 */
+
+
+/* google、safari */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+
+/* 火狐 */
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+

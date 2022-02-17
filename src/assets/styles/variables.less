@@ -1,0 +1,40 @@
+@import "~/ant-design-vue/lib/style/themes/default.less";
+@link-color: @primary-color;
+@primary-color: #3c56cc;//主题色 3c56cc
+@btn-primary-bg: @primary-color;//主题背景色
+@layout-body-background:color(~`colorPalette('@{primary-color}', 1) `);//layout背景色
+@border-radius-base:8px;//圆角
+@font-size-base：14px;//一般字体
+@font-size-sm: 12px;//小号字体
+@input-height-base:32px;//input默认高度
+@btn-font-size-sm:@font-size-sm;//小按钮字体
+@dropdown-menu-bg:@primary-color;//下拉按钮背景
+@menu-popup-bg:color(~`colorPalette('@{primary-color}', 1) `);
+@select-background:color(~`colorPalette('@{primary-color}', 1) `);
+@input-bg:color(~`colorPalette('@{primary-color}', 1) `);
+@menu-item-active-bg:color(~`colorPalette('@{primary-color}', 1) `);
+@input-border-color:color(~`colorPalette('@{primary-color}', 1) `);
+@select-border-color:color(~`colorPalette('@{primary-color}', 1) `);
+//面包屑导航栏
+@breadcrumb-base-color: @primary-color;
+@breadcrumb-last-item-color: #7f857c;
+@breadcrumb-link-color: @link-color;
+@breadcrumb-link-color-hover: @primary-5;
+@breadcrumb-separator-color: @primary-color;
+
+@font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+  'Noto Color Emoji';
+
+
+:root { 
+  --PC: @primary-color;   //color.less中加入css原生变量：--PC
+}
+
+.primary-color{
+  color:@primary-color
+}
+
+//tabs 标签页
+// @tabs-card-tab-active-border-top: @border-radius-base solid transparent;
+// @tabs-horizontal-margin: 0;
